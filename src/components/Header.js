@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { WavyLink } from "react-wavy-transitions";
+
 import logo from "../images/logo.png";
 export default function Header() {
   return (
@@ -15,16 +16,16 @@ export default function Header() {
           </div>
           <ul id="links">
             <li>
-              <Link to="/">Home</Link>
+              <WavyLink color="#10cab7" to="/">Home</WavyLink >
             </li>
             <li>
-              <Link to="/Services">Services</Link>
+              <WavyLink color="#10cab7"  to="/Services">Services</WavyLink >
             </li>
             <li>
-              <Link to="/Portfolio">Portfolio</Link>
+              <WavyLink color="#10cab7" to="/Portfolio">Portfolio</WavyLink >
             </li>
             <li>
-              <Link to="/About">About</Link>
+              <WavyLink color="#10cab7" to="/About">About</WavyLink >
             </li>
           </ul>
         </div>

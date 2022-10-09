@@ -184,26 +184,19 @@ body {
   top: -18px;
   right: 5px;
 }
-
-.links ul li {
-  padding-top: 10px;
-  max-width: 100%;
-  padding-bottom: 10px;
-}
-
 .links ul :not(:last-child) {
   border-bottom: 1px solid rgb(216, 214, 214);
   margin-bottom: 10px;
 }
-
-.links ul li a {
-  text-decoration: none;
+.links ul li button {
+  padding: 10px 0 10px 20px ;
+  text-align: start;
+  width: 100%;
   color: var(--black-color);
-  padding-left: 20px;
   transition: var(--main-duration);
 }
 
-.links ul li a:hover {
+.links ul li:hover button {
   padding-left: 30px;
 }
 

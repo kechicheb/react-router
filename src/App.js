@@ -6,10 +6,13 @@ import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import { Routes, Route} from "react-router-dom";
+import {WavyContainer} from "react-wavy-transitions";
+
 function App() {
   return (
     <div className="App">
       <Header />
+      <WavyContainer/>
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/Services" element={<Services />} />
@@ -20,8 +23,4 @@ function App() {
     </div>
   );
 }
-// var date = new Date();
-// var year = date.getFullYear();
-
-// document.getElementById("copyright-year").innerHTML = "&copy;" + year;
 export default App;
